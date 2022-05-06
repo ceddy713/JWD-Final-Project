@@ -72,7 +72,7 @@ Notice how each task has a unique `id`? We will be using this `id` in future ste
 
 1. In the `TaskManager`'s `constructor`, accept a `currentId` parameter, with a default value of `0`.
 2. Assign the `currentId` to a new property on the class, `this.currentId`.
-3. Create a method on the class, `addTask`. This method should accept all the nessecary information from the form to create a task as parameters.
+3. Create a method on the class, `addTask`. This method should accept all the nessecary information from the form to create a task as parameters. Store the task as an object within your method.
     - `name`
     - `description`
     - `assignedTo`
