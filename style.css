@@ -1,5 +1,5 @@
 * {
-    padding: 10px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -7,10 +7,15 @@
 header {
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 
 .header-right {
+    padding: 10px;
+}
 
+.header-right a {
+    padding: 10px;
 }
 
 a {
@@ -22,4 +27,8 @@ a {
 
 .container-fluid {
     padding: 50px;
+}
+
+footer {
+    height: 30vh;
 }
