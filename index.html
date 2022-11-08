@@ -17,10 +17,19 @@
 <body>
   <div id="myDIV" class="header">
     <h2>Task List</h2>
-    <input type="text" id="myInput" placeholder="Task Type">
-    <span onclick="newElement()" class="addBtn">Add</span>
+  
+  
   </div>
   <form id="newTaskForm">
+    <div class="form-group px-4 pt-4 mb-0">
+      <label class="form-group-text" for="inputGroupSelect01">Task Type</label>
+      <select class="form-select form-control" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">Team Work</option>
+        <option value="2">Individual Work</option>
+      </select>
+    </div>
+
     <div class="form-group px-4 py-4">
       <label for="NameInput">Name</label>
       <input type="text" class="form-control" id="NameInput">
@@ -32,7 +41,14 @@
     <div class="form-row px-4">
       <div class="form-group col ">
         <label for="AssignedTo">Assigned To</label>
-        <input type="text" class="form-control" id="AssignedTo">
+        <select class="form-select form-control" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">Cedric</option>
+          <option value="3">Lily</option>
+          <option value="2">Miguel</option>
+          <option value="2">Mosammat</option>
+          <option value="2">Okera</option>
+        </select>
       </div>
       <div class="form-group col">
         <label for="DueDate">Due Date</label>
@@ -43,7 +59,7 @@
   </form>
 
   <ul id="myUL">
-    <li>Task 1</li>
+    <li class="checked">Task 1</li>
     <li class="checked">Task 2</li>
     <li>Task 3</li>
     <li>Task 4</li>
